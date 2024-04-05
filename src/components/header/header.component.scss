@@ -1,0 +1,46 @@
+.header {
+    font-family: var(--sp-font-family-primary);
+
+    .navbar {
+
+        .navbar-menu-mobile {}
+
+        .navbar-content {
+            width: 100% !important;
+
+            .navbar-toggler {
+                position: relative;
+            }
+
+            .logo-img {
+                margin-right: 60px;
+                .logo {
+                    width: 80px;
+                    height: 80px;
+                }
+            }
+
+            .offcanvas {
+                .nav {
+                    .nav-item {
+                        display: flex;
+
+                        align-items: center;
+
+                        .nav-link {
+                            color: var(--sp-color-black-primary) !important;
+                            font-size: calc(var(--sp-font-size-base));
+                            letter-spacing: calc(var(--sp-font-letter-spacing) + 0.2px);
+                        }
+                    }
+
+                    .nav-links {
+                        align-items: center;
+                        display: flex;
+                        margin-left: 25px;
+                    }
+                }
+            }
+        }
+    }
+}

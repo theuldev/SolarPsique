@@ -1,0 +1,9 @@
+@mixin host {
+    app-root {
+        font-family: var(--sp-font-family-primary)!important;
+    }
+}
+
+
+
+@include host;

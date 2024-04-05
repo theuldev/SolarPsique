@@ -1,0 +1,24 @@
+<sp-wrapper>
+    <div class="container">
+        <section class="services-section">
+            <div class="services-section-title">
+                Serviços
+            </div>
+            <div class="services-section-subtitle">
+                Nosso compromisso é fornecer serviços de alta qualidade com ética e transparência
+            </div>
+            <div class="services-section-content d-flex flex-row">
+                <div class="row">
+                    <div class="col m-2" *ngFor="let item of servicesInfo">
+                        <sp-services-card [item]='item'></sp-services-card>
+                    </div>
+                </div>
+
+
+
+
+            </div>
+        </section>
+
+    </div>
+</sp-wrapper>

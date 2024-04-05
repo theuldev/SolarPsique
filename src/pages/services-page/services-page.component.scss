@@ -1,0 +1,26 @@
+.container {
+    .services-section {
+        font-family: var(--sp-font-family-primary);
+background: var(--sp-color-gray-primary);
+        .services-section-title {
+            text-align: center;
+            color: var(--sp-color-green-primary);
+            font-weight: 300;
+            font-size: calc(var(--sp-font-size-base) + 2rem);
+        }
+
+        .services-section-subtitle {
+            text-align: center;
+            color: var(--sp-color-black-primary);
+            font-weight: 300;
+            font-size:  calc(var(--sp-font-size-base) + 0.2rem);
+            margin-top: 15px;
+        }
+        .services-section-content{
+            margin-top: 50px;
+
+    
+        }
+
+    }
+}

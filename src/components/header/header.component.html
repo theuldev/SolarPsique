@@ -1,0 +1,64 @@
+<header class="header">
+    <nav class="navbar navbar-expand-sm pt-4">
+        <div class="navbar-menu-mobile d-flex">
+            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#navbarOffcanvasMd"
+                aria-controls="navbarOffcanvasMd" aria-label="Toggle navigation">
+
+                <i class="material-icons">
+                    &#xe5d2;
+                </i>
+            </button>
+        </div>
+
+        <div class="navbar-content d-flex flex-row">
+
+
+
+            <div class="offcanvas offcanvas-end" tabindex="-1" id="navbarOffcanvasMd"
+                aria-labelledby="navbarOffcanvasMdLabel">
+                <div class="offcanvas-header">
+                    <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Navegação</h5>
+
+                    <i class="material-icons" data-bs-dismiss="offcanvas">
+                        &#xe5cd;
+                    </i>
+                </div>
+
+
+                <ul class="nav justify-content-center gap-xl-1 gap-md-4 ">
+                    <div class="logo-img">
+                        <a class="logo-address" href="/home">
+                            <img class="logo" src="../../assets/images/logo-solarpsique-AnyEraser.png" >
+                        </a>
+                      
+                    </div>
+                    <li class="nav-item">
+                        <a class="nav-link" routerLink="/" routerLinkActive="active"
+                            (click)="goToElementWithScroll($event)" id="home">Página Inicial</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" routerLink="/servicos" routerLinkActive="active">Serviços</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" routerLink="/gestao" routerLinkActive="active">Gestão e Solução</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" routerLink="/localizacao" routerLinkActive="active">Localização</a>
+                    </li>
+
+                    <div class="nav-links d-flex flex-row gap-3">
+                        <a class="nav-link-instagram" href="https://www.instagram.com/solar.psique/" target="_blank">
+                            <ng-icon name="bootstrapInstagram"></ng-icon>
+                        </a>
+                        <a class="nav-link-instagram-radix-link">
+                            <ng-icon name="radixLink2"></ng-icon>
+                        </a>
+                    </div>
+
+                </ul>
+            </div>
+
+        </div>
+
+    </nav>
+</header>

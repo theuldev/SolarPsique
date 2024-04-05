@@ -1,0 +1,40 @@
+.card {
+    height: 150px;
+    border: none;
+
+    .card-body {
+        height: 70%;
+        font-family: var(--sp-font-family-primary);
+
+        .card-body-id {
+            font-size: calc(var(--sp-font-size-base) + 0.5rem);
+            font-weight: 300;
+            color: var(--sp-color-green-primary);
+            padding-bottom: 5px;
+        }
+
+        .card-body-title {
+            font-size: calc(var(--sp-font-size-base));
+            font-weight: 200;
+            color: var(--sp-color-green-primary);
+
+        }
+
+
+
+    }
+
+    .divisor {
+
+        background-color: var(--sp-color-green-primary);
+        width: 85%;
+        height: 2px;
+        opacity: 1;
+        position: relative;
+        margin: 0 auto;
+        bottom: 25px;
+        box-shadow:var(--sp-color-green-primary) 0px 10px 20px;
+
+
+    }
+}

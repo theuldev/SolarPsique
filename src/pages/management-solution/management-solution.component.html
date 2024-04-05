@@ -1,0 +1,27 @@
+<sp-wrapper>
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <div class="management-solution-section">
+                    <div class="title">
+                        Gestão & Solução
+                    </div>
+
+                    <div class="management-solution-card-section ">
+                        <div class="row d-flex flex-lg-row flex-column">
+                            <div class="col" *ngFor="let item of managementSolutions">
+                                <sp-management-solution-card [managementSolution]="item"></sp-management-solution-card>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col m-2" *ngFor="let item of services">
+                                <sp-services-card [item]='item'></sp-services-card>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</sp-wrapper>
